@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> 
 
@@ -125,27 +125,9 @@
               <nav class="site-navigation position-relative text-right" role="navigation">
   
                 <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                  <li><a href="#home-section" class="nav-link">Home</a></li>
-                  <li class="has-children">
-                    <a href="#about-section" class="nav-link">About Us</a>
-                    <ul class="dropdown">
-                      <li><a href="#team-section" class="nav-link">Team</a></li>
-                      <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
-                      <li><a href="#faq-section" class="nav-link">FAQ</a></li>
-                      <li><a href="#gallery-section" class="nav-link">Gallery</a></li>
-                      <li><a href="#services-section" class="nav-link">Services</a></li>
-                      <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                      <li class="has-children">
-                        <a href="#">More Links</a>
-                        <ul class="dropdown">
-                          <li><a href="#">Menu One</a></li>
-                          <li><a href="#">Menu Two</a></li>
-                          <li><a href="#">Menu Three</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  
+                  <li><a href="#home" class="nav-link">Home</a></li>
+                  <li><a href="#aboutme" class="nav-link">about</a></li>
+                 
                   
                   <li><a href="#blog-section" class="nav-link">Blog</a></li>
                   <li><a href="#contact-section" class="nav-link">Contact</a></li>
@@ -167,7 +149,7 @@
       </header>
   
 
-      <div class="mes">
+      <div class="mes" id="home">
         
         
         <section class="pre">
@@ -184,8 +166,8 @@
                   </a>
                 </h3>
                 </div>
-                <div class="col-md-6 ulimaGE">
-                  <img src="images/ul4.png" alt="">
+                <div class="col-md-6 ulimaGE pimgpre">
+                  <img src="images/ul4.png" alt="" class="pimgpre">
                 </div>
               </div>
           </div>
@@ -206,33 +188,10 @@
             <li></li>
             <li></li>
          </ul>
-          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <svg data-name="Layer 1"   src="images/bc1.jpg"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
               <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-              <ul class='circles'>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-             </ul>
+             
             </svg>
-            <ul class='circles'>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-           </ul>
       </div>
       <ul class='circles'>
         <li></li>
@@ -262,18 +221,24 @@
       <div class="container">
         <div class="row rowimgpre">
           <div class="col-md-4 about_image">
-            <img src="images/didier.jpg" alt="">
+            <img src="images/didier.jpg" alt="" class="preimage">
           </div>
-          <div class="col-md-8 textpre justify-content-center">    
+          <div class="col-md-8 textpre justify-content-center" id="aboutme">    
             <h3 class="typinani">
               <span class="presspan">I'm a</span>
               <a href="" class="typewrite" data-period="2000" data-type='[ "WEB developer.", "DIGITAL BUSINESS developer.", "GRAPHIC DESINER." ]'>
                 <span class="wrap"></span>
               </a>
             </h3>                                                                                                                      
-            <p> web developers build and maintain websites. Web developers often work for clients who are trying to get their product or service onto the web. The work is typically very project focused and involves collaborating with a team that helps to coordinate the client's needs into the end product.</p>
-            <p> web developers build and maintain websites. Web developers often work for clients who are trying to get their product or service onto the web. The work is typically very project focused and involves collaborating with a team that helps to coordinate the client's needs into the end product.</p>
+            <p> Working as A software engineer is a great experience because meeting the customer's requirements by providing a solution that meets their expectations is what I'm called to do. 
 
+              IT is all about finding solutions to our daily problems with appropriate technologies .
+              Being part of those who can serve others by finding solutions to their problem is more than a privilege.
+               
+              I'm not stacked because i am flexible when it comes to switching to any field, that is why I go from experience to experience and I'm currently working as a web researcher, such a great experience that helps me to get knowledge in different domains .
+              
+               I am also an ambassador for African Blockchain - NFT Fund: an investment fund that aims to create and promote a new generation of Blockchain and services in Africa. The investment fund brings together all types of experts, talents, investors in various fields</p>
+            
           </div>
         </div>
       </div>
@@ -289,8 +254,8 @@
                     <i class="fa fa-desktop"></i>
                 </div>
                 <h3 class="title">Web Design</h3>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.
+                <p class="description"  style="text-transform: capitalize;">
+                 I provide  customized website design that's perfect for your business or personal site
                 </p>
                 <a href="#" class="read-more">Read More</a>
             </div>
@@ -301,9 +266,8 @@
                     <i class="fa fa-code"></i>
                 </div>
                 <h3 class="title">Web Development</h3>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.
-                </p>
+                <p class="description"  style="text-transform: capitalize;">
+                 i create, build, and maintaining your business websites and web applications       </p>
                 <a href="#" class="read-more">Read More</a>
             </div>
         </div>
@@ -313,8 +277,9 @@
                   <i class="fa fa-rocket"></i>
               </div>
               <h3 class="title">brand development</h3>
-              <p class="description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.
+              <p class="description"  style="text-transform: capitalize;">
+                you have a clear picture of your brand but you don't know where to start, slide in contact
+
               </p>
               <a href="#" class="read-more">Read More</a>
           </div>
@@ -325,8 +290,9 @@
                   <i class="fa fa-pencil-square"></i>
               </div>
               <h3 class="title">graphic designing</h3>
-              <p class="description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.
+              <p class="description" style="text-transform: capitalize;">
+                 well-designed  professional visual communications for your business with me
+ 
               </p>
               <a href="#" class="read-more">Read More</a>
           </div>
@@ -343,10 +309,10 @@
       <div class="nav-wrapper">
         <ul class="nav nav-pills nav-fill flex-column flex-md-row capptit" id="tabs-icons-text" role="tablist">
             <li class="nav-item certexprtitle">
-                <a class="nav-link mb-sm-3 mb-md-0 pillbconcliv " style="background-color:transparent;" id="tabs-icons-text-1-tab" data-toggle="tab" href="#tabs-icons-text-1" role="tab" aria-controls="tabs-icons-text-1" aria-selected="true"><i class="ni ni-cloud-upload-96 mr-2"></i>APPEL ENTRANT</a>
+                <a class="nav-link mb-sm-3 mb-md-0 pillbconcliv " style="background-color:transparent;" id="tabs-icons-text-1-tab" data-toggle="tab" href="#tabs-icons-text-1" role="tab" aria-controls="tabs-icons-text-1" aria-selected="true"><i class="ni ni-cloud-upload-96 mr-2"></i>Expereice</a>
             </li>
             <li class="nav-item certexprtitle">
-                <a class="nav-link mb-sm-3 mb-md-0 pillbconcliv" style="background-color: transparent;"  id="tabs-icons-text-2-tab" data-toggle="tab" href="#tabs-icons-text-2" role="tab" aria-controls="tabs-icons-text-2" aria-selected="false"><i class="ni ni-bell-55 mr-2"></i>appel sortant</a>
+                <a class="nav-link mb-sm-3 mb-md-0 pillbconcliv" style="background-color: transparent;"  id="tabs-icons-text-2-tab" data-toggle="tab" href="#tabs-icons-text-2" role="tab" aria-controls="tabs-icons-text-2" aria-selected="false"><i class="ni ni-bell-55 mr-2"></i>certification</a>
             </li>
           
         </ul>
@@ -354,7 +320,7 @@
       <div class="card border-0">
         <div class="card-body border-0">
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="tabs-icons-text-1" role="tabpanel" aria-labelledby="tabs-icons-text-1-tab">
+                <div class="tab-pane fade  " id="tabs-icons-text-1" role="tabpanel" aria-labelledby="tabs-icons-text-1-tab">
                    
                         
             <div class="main-timeline">
@@ -363,12 +329,14 @@
                       <div class="timeline-icon">
                           <i class="fa fa-globe"></i>
                       </div>
-                      <div class="timeline-year"> 2019 </div>
+                      <div class="timeline-year"> 2021 </div>
                       <div class="inner-content">
-                          <h3 class="title">Web Designing</h3>
-                          <h5 class="title">company</h5>
-                          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa
-                              dolore explicabo fuga pariatur gjkfdgj  quis reprehenderit tenetur vel!</p>
+                          <h3 class="title" style="font-size: 17px; text-transform: uppercase;">Senior researcher French Expert</h3>
+                          <h5 class="title" style="font-size: 15px; text-transform: uppercase;">Ation-Edge</h5>
+                          <p class="description">- Web Researcher in IT brand and services <br>
+ - Market study for all IT brand and services <br>
+ - conducting surveys  in French and English with CO,   CEO , CTO, CDO, CAO and IT  managers of companies in Europe  on products and services
+/p>
                       </div>
                   </a>
               </div>
@@ -377,12 +345,17 @@
                       <div class="timeline-icon">
                           <i class="fa fa-rocket"></i>
                       </div>
-                      <div class="timeline-year"> 2018 </div>
+                      <div class="timeline-year"> 2020</div>
                       <div class="inner-content">
-                          <h3 class="title">Web Development</h3>
-                          <h5 class="title">company</h5>
-                          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa
-                              dolore explicabo fuga pariatur gjkfdgj  quis reprehenderit tenetur vel!</p>
+                          <h3 class="title" style="font-size: 17px; text-transform: uppercase;"> Live Chat IT specialist</h3>
+                          <h5 class="title" style="font-size: 15px; text-transform: uppercase;">GUBAGO </h5>
+                          <p class="description">
+                           
+                            - working with  dealership in  CANADA , FRANCE and US <br>
+                            - selling vehicles from dealership to customers located in CANADA, FRANCE and US 
+                           <br> - Assisting customers from those 3 location for their leasing and financing of vehicle with financial institutions.
+                            
+                            </p>
                       </div>
                   </a>
               </div>
@@ -394,12 +367,10 @@
                     <div class="timeline-icon">
                         <i class="fa fa-globe"></i>
                     </div>
-                    <div class="timeline-year"> 2019 </div>
+                    <div class="timeline-year"> 2021 </div>
                     <div class="inner-content">
-                        <h3 class="title">Web Designing</h3>
-                        <h5 class="title">company</h5>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa
-                            dolore explicabo fuga pariatur gjkfdgj  quis reprehenderit tenetur vel!</p>
+                        <h3 class="title" style="font-size: 17px; text-transform: uppercase;">Web Developer and applications Administrator</h3>
+                        <h5 class="title" style="font-size: 15px; text-transform: uppercase;">SVJK Training center</h5>
                     </div>
                 </a>
             </div>
@@ -408,19 +379,17 @@
                     <div class="timeline-icon">
                         <i class="fa fa-rocket"></i>
                     </div>
-                    <div class="timeline-year"> 2018 </div>
+                    <div class="timeline-year"> 2019</div>
                     <div class="inner-content">
-                        <h3 class="title">Web Development</h3>
-                        <h5 class="title">company</h6>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa
-                            dolore explicabo fuga pariatur gjkfdgj  quis reprehenderit tenetur vel!</p>
+                        <h3 class="title" style="font-size: 17px; text-transform: uppercase;">Web Developer </h3>
+                        <h5 class="title" style="font-size: 15px; text-transform: uppercase;">Angikatechnology  </h6>
                     </div>
                 </a>
             </div>
         </div>
                 
                 </div>
-              <div class="tab-pane fade " id="tabs-icons-text-2" role="tabpanel" aria-labelledby="tabs-icons-text-2-tab">
+              <div class="tab-pane fade show active " id="tabs-icons-text-2" role="tabpanel" aria-labelledby="tabs-icons-text-2-tab">
                 <div class="container">
                   <div class="row">
                     <div class="col-md-6">
@@ -428,25 +397,11 @@
                                     <ul class="timeline">
                                         <li class="timeline-item bg-white rounded ml-1 p-4 shadow">
                                             <div class="timeline-arrow"></div>
-                                            <h2 class="h5 mb-0">Title of section 1</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>21 March, 2019</span>
-                                            <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                                        </li>
+                                            <h2 class="h5 mb-0">Bachelor of Computer Application</h2><span class="small text-gray">Bangalore University</span>
+                                                       </li>
                                         <li class="timeline-item bg-white rounded ml-1 p-4 shadow">
                                             <div class="timeline-arrow"></div>
-                                            <h2 class="h5 mb-0">Title of section 2</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>5 April, 2019</span>
-                                            <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper.</p>
-                                           
-                                        </li>
-                                        <li class="timeline-item bg-white rounded ml-1 p-4 shadow">
-                                            <div class="timeline-arrow"></div>
-                                            <h2 class="h5 mb-0">Title of section 3</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>18 August, 2019</span>
-                                            <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                                        </li>
-                                        <li class="timeline-item bg-white rounded ml-1 p-4 shadow">
-                                            <div class="timeline-arrow"></div>
-                                            <h2 class="h5 mb-0">Title of section 4</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>10 October, 2019</span>
-                                            <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                                            
+                                            <h2 class="h5 mb-0">Diploma master programming course </h2><span class="small text-gray">NICT Computer education</span>
                                         </li>
                                     </ul><!-- End -->
                     
@@ -458,24 +413,12 @@
                                   <ul class="timeline">
                                       <li class="timeline-item bg-white rounded ml-1 p-4 shadow">
                                           <div class="timeline-arrow"></div>
-                                          <h2 class="h5 mb-0">Title of section 1</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>21 March, 2019</span>
-                                          <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                                      </li>
+                                          <h2 class="h5 mb-0">E-commerce Web development</h2><span class="small text-gray">APPtech edu</span> 
+                                        </li>
                                       <li class="timeline-item bg-white rounded ml-1 p-4 shadow">
                                           <div class="timeline-arrow"></div>
-                                          <h2 class="h5 mb-0">Title of section 2</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>5 April, 2019</span>
-                                          <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper.</p>
-                                          
-                                      </li>
-                                      <li class="timeline-item bg-white rounded ml-1 p-4 shadow">
-                                          <div class="timeline-arrow"></div>
-                                          <h2 class="h5 mb-0">Title of section 3</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>18 August, 2019</span>
-                                          <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                                      </li>
-                                      <li class="timeline-item bg-white rounded ml-1 p-4 shadow">
-                                          <div class="timeline-arrow"></div>
-                                          <h2 class="h5 mb-0">Title of section 4</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>10 October, 2019</span>
-                                          <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                                          <h2 class="h5 mb-0">Advended JAVA Development</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>IIHT</span>
+                                         
                                           
                                       </li>
                                   </ul><!-- End -->
@@ -542,7 +485,7 @@
           </div>
 
           <div class="progress pink">
-              <h3 class="progress-title">jave</h3>
+              <h3 class="progress-title">java</h3>
               <div class="progress-bar" style="width:60%; background:#b3acdd;">
                   <div class="progress-value">60%</div>
               </div>
@@ -596,7 +539,7 @@
 
 
 <!-- footer-->
-<div class="container-fluid bg-dark  "> <div class="raw"> <div class="col-md-12">
+<div class="container-fluid bg-dark  " id="contact-section"> <div class="raw"> <div class="col-md-12">
   <footer class="text-center text-white">
   <!-- Grid container -->
   <div class=" p-4 pb-0">
@@ -608,7 +551,7 @@
       ></a>
 
       <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/LuboyaDidier" role="button"
         ><i class="icon-twitter"></i
       ></a>
 
@@ -618,12 +561,12 @@
       ></a>
 
       <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/didierlb7/" role="button"
         ><i class="icon-instagram"></i
       ></a>
 
       <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/didier-luboya" role="button"
         ><i class="icon-linkedin"></i
       ></a>
 

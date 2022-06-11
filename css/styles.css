@@ -369,7 +369,7 @@ a {
 }
 .typinani
 {
-  padding-top: 1000px;
+  padding-top: 0px;
   padding-bottom: 30px;
 }
 /*service*/
@@ -672,6 +672,16 @@ background: var(--color4);
   .main-timeline .timeline:before{ left: -12.5px; }
   }
   @media only screen and (max-width:767px){
+      .pimgpre
+      {
+          display: none;
+      }
+      .preimage
+      {
+          width: 100%;
+          padding: 0%;
+          margin: 0%;
+      }
   .main-timeline .timeline,
   .main-timeline .timeline:nth-child(even){
 width: 100%;
